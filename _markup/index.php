@@ -22,8 +22,19 @@
 			<div class="userArea">
 				<div class="list myFavorites"><div class="span"></div><a href="#">ფავორიტები (0)</a></div>
 				<div class="list myAccount"><div class="span"></div><a href="#">ჩემი ანგარიში</a></div> 
-			<//div>
+			</div>
 		</div>
 	</div>
+	<div class="clearer"></div>
+	<div class="header">
+		<h1 class="logo">
+			<a href="#"><img src="" width="175" height="74" alt="ლოგო" /></a>
+		</h1>
+		<div class="hotline">
+			<span>კონტაქტი: <a href="mailto:info@404.ge">info@404.ge</a></span>
+		</div>
+	</div>	
+	<div class="hr"></div>
+
 </body>
 </html> 
