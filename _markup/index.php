@@ -21,7 +21,7 @@
 			
 			<div class="userArea">
 				<div class="list myFavorites"><div class="span"></div><a href="#">ფავორიტები (0)</a></div>
-				<div class="list myAccount"><div class="span"></div><a href="#">ჩემი ანგარიში</a></div>
+				<div class="list myAccount"><div class="span"></div><a href="#">ჩემი ანგარიში</a></div> 
 			<//div>
 		</div>
 	</div>
