@@ -57,11 +57,14 @@
 		<div class="right">
 			<div class="searchBox">
 				<form action="" method="post" class="search_form">
-					<select class="searchInto" name="searchInto">
-						<option value="0">ყველა კატეგორია</option>
-						<option value="1">ავეჯი, ინტერიერი, ჭურჭელი</option>
-						<option value="2">ავეჯი, ინტერიერი, ჭურჭელი</option>
-					</select>
+					<div class="select">
+						<div class="selected">ყველა კატეგორია</div>
+						<ul>
+							<li>ყველა კატეგორია</li>
+							<li>ავეჯი, ინტერიერი, ჭურჭელი</li>
+							<li>კომპიუტერული ტექნიკა</li>
+						</ul>
+					</div>
 					<input type="text" class="keyword" name="keyword" value="" />
 					<input type="submit" value="ძებნა" />
 					<div class="clearer"></div>
