@@ -57,6 +57,7 @@
 		<div class="right">
 			<div class="searchBox">
 				<form action="" method="post" class="search_form">
+					<input type="hidden" name="category" class="category" value="" />
 					<div class="select">
 						<div class="selected">ყველა კატეგორია</div>
 						<ul>

@@ -3,13 +3,14 @@ $(document).ready(function(){
 	topSlide("topMassage.php",".top .center .newsSlide span",0);
 	
 	$(".content .right .searchBox .search_form .select .selected").click(function(){
-		$(".content .right .searchBox .search_form .select ul").slideToggle("slow");
+		$(".content .right .searchBox .search_form .select ul").stop().slideToggle("slow");
 	});
 	
 	$(".content .right .searchBox .search_form .select ul li").click(function(){
 		var valu = $(this).html();
 		$(".content .right .searchBox .search_form .select .selected").html(valu);
-		$(".content .right .searchBox .search_form .select ul").slideToggle("slow");
+		$(".content .right .searchBox .search_form .category").val(valu);
+		$(".content .right .searchBox .search_form .select ul").stop().slideToggle("slow");
 	})
 	
 });
