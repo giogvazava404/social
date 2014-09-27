@@ -13,13 +13,10 @@ body{ margin:0; padding:0; }
 .top .center .userArea .list a:hover{ text-decoration:underline; color:#f1696f }
 .top .center .userArea .myAccount .span{ margin:10px 5px; padding:0; width:13px; height:11px; float:left; background-image:url('../images/sprite.png'); background-position:0px 0px; background-repeat:no-repeat;  }
 .top .center .userArea .myFavorites .span{ margin:10px 5px; padding:0; width:13px; height:11px; float:left; background-image:url('../images/sprite.png'); background-position:-13px 0px; background-repeat:no-repeat;  }
-.header{ margin:0 auto; width:1200px; height:160px; }
+.header{ margin:0 auto; width:1200px; height:115px; }
 .header .logo{ margin:18px 0 0 0; width:175px; height:74px; float:left; }
 .header .logo a{ width:175px; height:74px; display:block; }
 .header .logo a img{ width:175px; height:74px; outline:0; border:0; }
-.header .hotline{  margin:0 0 0 0; width:200px; height:74px; float:right; }
-.header .hotline span{  line-height:74px; font-size:16px; color:#666666; }
-.header .hotline span a{  line-height:74px; font-size:16px; color:#f96a6e; }
 .header .userArea{ margin:0 auto; padding:0; width:200px; text-align:center; display:none; }
 .header .userArea .list{ margin:0; padding:0 10px; width:180px; height:34px; line-height:34px; font-size:14px;  }
 .header .userArea .list a{ margin:0; padding:0; line-height:34px; font-size:14px; color:#666666; text-decoration:none  }
@@ -40,7 +37,7 @@ body{ margin:0; padding:0; }
 .content .right .searchBox .search_form .select ul li:last-child{ border-bottom:none !important }
 .content .right .searchBox .search_form input[type="text"]{ margin:0; padding:0; width:513px; height:30px; line-height:30px; float:left; margin-left:15px; }
 .content .right .searchBox .search_form input[type="submit"]{ margin:0; padding:0; border:0; outline:0; width:90px; height:30px; float:left;margin-left:15px; background:#f96a6e; color:white; text-align:center; }
-
+.content .right .slider{ width:90%; height:240px; float:left; margin-left:5%; }
 @media (max-width: 1200px) {
 	/* CSS Rules used when query matches */
 	.top .center{ width:90%; float:left; margin-left:5%; }
@@ -48,7 +45,15 @@ body{ margin:0; padding:0; }
 	.top .center .userArea{ display:none }
 	.header{ width:100%; height:auto !important; }
 	.header .logo{ width:100%; float:left; margin-left:-87.5px; position:relative; left:50%; top:0px; }
-	.header .hotline{ width:100%; margin:0px !important; float:none; text-align:center }
-	.header .userArea{ display:block; margin-top:25px; }
+	.header .userArea{ display:block; margin-top:5px auto; }
 	.header .userArea .list a:hover{ text-decoration:underline; color:#f1696f }
+	.content .left{ display:none; }
+	.content{ width:100% !important }
+	.content .right{ margin:1% 5% !important; padding:0 !important; width:90% !important; float:left; }
+	.content .right .searchBox{ margin:1% !important; padding:0 !important; width:98% !important; }
+	.content .right .searchBox .search_form{ margin:0 !important; padding:0 !important; width:100% !important; }
+	.content .right .searchBox .search_form .select{ margin:0 !important; padding:0 !important; display:none !important;}
+	.content .right .searchBox .search_form input[type="text"]{ margin:0 !important; padding:0 !important; width:80%; float:left; }
+	.content .right .searchBox .search_form input[type="submit"]{ margin:0; padding:0 !important; margin-left:5%; width:15%; float:left; }
+	.content .right .slider{ display:none; }
 }

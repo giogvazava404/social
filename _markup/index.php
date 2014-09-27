@@ -37,9 +37,6 @@
 				<div class="list myAccount"><a href="#">ჩემი ანგარიში</a></div> 
 			</div>
 		<div class="clearer"></div>
-		<div class="hotline">
-			<span>კონტაქტი: <a href="mailto:info@404.ge">info@404.ge</a></span>
-		</div>
 	</div>	
 	<div class="hr"></div>
 	
@@ -57,7 +54,7 @@
 		<div class="right">
 			<div class="searchBox">
 				<form action="" method="post" class="search_form">
-					<input type="hidden" name="category" class="category" value="" />
+					<input type="hidden" name="category" class="category" value="" /> 
 					<div class="select">
 						<div class="selected">ყველა კატეგორია</div>
 						<ul>
@@ -71,6 +68,10 @@
 					<div class="clearer"></div>
 				</form>
 				<div class="clearer"></div>
+			</div>
+			<div class="slider">
+				<iframe src="http://localhost/social/_markup/_plugins/ItemSlider/" width="100%" height="240" style="border:0;" scrolling="no" />
+				<div style="clear:both"></div>
 			</div>
 		</div>
 	</div>
