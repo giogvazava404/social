@@ -42,6 +42,34 @@
 		</div>
 	</div>	
 	<div class="hr"></div>
+	
+	<div class="content">
+		<div class="left">
+			<div class="title"><div class="span"></div> კატეგორიები</div>
+			<ul>
+				<li><a href="#">ავეჯი, ინტერიერი, ჭურჭელი</a></li>
+				<li><a href="#">ავეჯი, ინტერიერი, ჭურჭელი</a></li>
+				<li><a href="#">ავეჯი, ინტერიერი, ჭურჭელი</a></li>
+				<li><a href="#">ავეჯი, ინტერიერი, ჭურჭელი</a></li>
+				<li><a href="#">ავეჯი, ინტერიერი, ჭურჭელი</a></li>
+			</ul>
+		</div>
+		<div class="right">
+			<div class="searchBox">
+				<form action="" method="post" class="search_form">
+					<select class="searchInto" name="searchInto">
+						<option value="0">ყველა კატეგორია</option>
+						<option value="1">ავეჯი, ინტერიერი, ჭურჭელი</option>
+						<option value="2">ავეჯი, ინტერიერი, ჭურჭელი</option>
+					</select>
+					<input type="text" class="keyword" name="keyword" value="" />
+					<input type="submit" value="ძებნა" />
+					<div class="clearer"></div>
+				</form>
+				<div class="clearer"></div>
+			</div>
+		</div>
+	</div>
 
 </body>
 </html> 
